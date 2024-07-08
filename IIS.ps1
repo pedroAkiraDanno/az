@@ -1,4 +1,4 @@
-#✅Script for installing IIS:
+#Script for installing IIS:
 #VM-WEB script
 #Install IIS with Management Tools
 Add-WindowsFeature Web-Server -IncludeManagementTools
