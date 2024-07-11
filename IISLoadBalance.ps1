@@ -10,7 +10,7 @@ remove-item C:\inetpub\wwwroot\iisstart.htm
 Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("TFTEC Load Balancer -" + $env:computername)
 
 
-
-
 #Stop IIS
 #iisreset /stop
+
+
