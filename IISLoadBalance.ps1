@@ -9,8 +9,6 @@ remove-item C:\inetpub\wwwroot\iisstart.htm
 #Configure default pages
 Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("TFTEC Load Balancer -" + $env:computername)
 
-#Configure default pages
-Add-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "Live TFTEC APP GW -- $($env:computername)"
 
 
 
