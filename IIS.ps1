@@ -3,7 +3,7 @@
 #Install IIS with Management Tools
 Add-WindowsFeature Web-Server -IncludeManagementTools
 
-Remove the iisstart page
+#Remove the iisstart page
 remove-item C:\inetpub\wwwroot\iisstart.htm
 
 #Configure default pages
