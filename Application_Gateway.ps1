@@ -21,7 +21,6 @@ $imagesvalue = ****URL-Path IMAGES*** $($env: computername)"
 # Configurar Paginas baseadas no Path
 Add-Content -Path "C:\inetpub\wwwroot\images\default.htm" -Value $imagesvalue $videovalue = "***URL-Path VIDEO*** - $($env:computername)"
 Add-Content -Path "C:\inetpub\wwwroot\video\default.htm" -value $videovalue
-I
 
 
 
