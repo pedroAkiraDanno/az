@@ -6,7 +6,7 @@ Add-WindowsFeature Web-Server -IncludeManagementTools
 
 
 # Remover a pagina iisstart
-remove-item C:\inetpub\wwwroot\iisstart.htm
+--remove-item C:\inetpub\wwwroot\iisstart.htm
 
 
 
