@@ -17,7 +17,8 @@ Add-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "TFTEC AZ-700 APPGW --
 
 
 # Configurar a URL dos Paths
-New-Item -ItemType directory -Path "C:\inetpub\wwwroot\images" New-Item -ItemType directory -Path "C:\inetpub\wwwroot\video"
+New-Item -ItemType directory -Path "C:\inetpub\wwwroot\images" 
+New-Item -ItemType directory -Path "C:\inetpub\wwwroot\video"
 $imagesvalue = ****URL-Path IMAGES*** $($env: computername)"
 
 
