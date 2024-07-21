@@ -2,7 +2,7 @@
 
 
 # Instalar IIS com Management Tools
-Add-windows Feature web-Šerver -IncludeManagement Tools
+Add-windows Feature web-Server -IncludeManagement Tools
 
 
 # Remover a pagina iisstart
