@@ -11,7 +11,9 @@ remove-item C:\inetpub\wwwroot\iisstart.htm
 
 
 # Configurar as paginas Default
-Add-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "TFTEC AZ-700 APPGW $($env: computername)"
+Add-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "TFTEC AZ-700 APPGW -- $($env:computername)"
+
+
 
 
 # Configurar a URL dos Paths
