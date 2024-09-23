@@ -1,4 +1,5 @@
 
-admin-azure [~]$ for (( ; ; )); do curl -s http://20.9.69.30?[1-1000]; done
+REM admin-azure [~]$ for (( ; ; )); do curl -s http://20.9.69.30?[1-1000]; done
 
+for (( ; ; )); do curl -s http://20.9.69.30?[1-1000]; done
 
