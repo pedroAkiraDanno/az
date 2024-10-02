@@ -13,3 +13,7 @@ Add-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "Live TFTEC APP GW -- 
 
 #Stop IIS
 #iisreset /stop
+
+#Restart IIS
+#iisreset
+
